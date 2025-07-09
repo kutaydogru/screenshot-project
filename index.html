@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Siemens Screenshot Demo</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0052cc, #00aaff);
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation: backgroundShift 10s infinite alternate;
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0 0 20px 0;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+        p {
+            font-size: 1.5rem;
+            max-width: 600px;
+            text-align: center;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        }
+        @keyframes backgroundShift {
+            0% {
+                background: linear-gradient(135deg, #0052cc, #00aaff);
+            }
+            100% {
+                background: linear-gradient(135deg, #00aaff, #0052cc);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Merhaba Siemens!</h1>
+    <p>Bu sayfanın ekran görüntüsü otomatik olarak alınıyor. Türkçe karakterler ve canlı renklerle hazırlandı.</p>
+</body>
+</html>
+<!-- This HTML file is designed to be used with the Puppeteer script in server.js -->
+<!-- It creates a visually appealing page with a gradient background and text that will be captured in the screenshot. -->
+<!-- The page includes Turkish characters and is styled to be responsive and modern. -->        
