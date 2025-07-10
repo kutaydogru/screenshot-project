@@ -8,7 +8,8 @@ The project leverages **Node.js**, **Puppeteer**, and **Nginx**, and is packaged
 
 ## Project Overview & Features
 
-- Allows users to specify a website URL via the local interface
+- Accepts a user-provided web adress (URL)
+- Captures a screenshot of the spesified web page
 - Saves the screenshot as a PNG file in the server’s `output/` folder
 - Offers a clean and intuitive web interface
 - Runs entirely in Docker—no manual setup required
