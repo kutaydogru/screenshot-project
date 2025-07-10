@@ -1,0 +1,34 @@
+# Node.js modülleri
+node_modules/
+
+# Çıktı klasörü
+output/
+output/*
+
+# Log dosyaları
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Ortam dosyaları (varsa)
+.env
+.env.* 
+
+# Geçici/önbellek dosyaları
+.cache/
+tmp/
+temp/
+
+# VSCode ayar dosyaları (isteğe bağlı)
+.vscode/
+
+# Puppeteer otomatik Chromium indirmesi (varsa)
+.puppeteer/
+
+# Docker için oluşturulmuş çıktılar
+docker-output/
